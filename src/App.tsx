@@ -1,19 +1,11 @@
-import Header from "./components/Header"
-import Home from "./components/Home"
+import FirstPage from "./components/FirstPage"
 
 function App() {
 
   return (
     <>
       <div className="min-h-screen bg-amber-50">
-        <Header />
-        <Home/>
-
-
-        
-        <main className="pt-28 p-4">
-
-        </main>
+        <FirstPage/>
 
         <footer className="bg-dark mt-5 py-5">
           <div className="container-xl">
