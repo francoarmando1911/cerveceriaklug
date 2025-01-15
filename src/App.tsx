@@ -7,9 +7,13 @@ function App() {
       <div className="min-h-screen bg-amber-50">
         <FirstPage/>
 
-        <footer className="bg-dark mt-5 py-5">
-          <div className="container-xl">
-            <p className="text-white text-center fs-4 mt-4 m-md-0">Cervecería Klug Gebräu - Todos los derechos Reservados</p>
+        <footer className="bg-gradient-to-r from-blue-50 to-indigo-50 shadow-lg rounded-t-lg">
+          <div className="bg-[#000B54] py-4">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <p className="text-center text-white text-sm">
+                © 2024 Intra Software. Todos los derechos reservados ©.
+              </p>
+            </div>
           </div>
         </footer>
 
